@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon -L"
+    "start": "node dist/index.js",
+    "build": "tsc -p .",
+    "dev": "nodemon -L"
   },
   "dependencies": {
     "express": "^4.17.1"
